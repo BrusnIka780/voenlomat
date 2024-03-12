@@ -1,0 +1,1 @@
+DGridCurrentEmpDela.ItemsSource = SOEntities2.GetContext().delas.Where(x => x.employee_id == Fsp && x.date.Year.ToString().Contains(Years.Text.ToLower())).ToList();
